@@ -8,30 +8,93 @@ Este projeto é uma ferramenta simples e poderosa criada para ajudar desenvolved
 
 O objetivo principal deste projeto é fornecer uma interface de linha de comando onde os usuários podem inserir várias propriedades CSS e obter uma lista ordenada de A-Z das propriedades.
 
-## Requisitos:
+## 📁 Requisitos:
 
-- NodeJS: O projeto foi desenvolvido usando NodeJS, garantindo sua portabilidade e facilidade de uso.
-- Pacotes NPM: Nenhum pacote externo foi usado, tornando o projeto leve e sem dependências externas.
+- NodeJS (v18.16.0): O projeto foi desenvolvido usando NodeJS, garantindo sua portabilidade e facilidade de uso.
+  Link para download [NodeJS ](https://nodejs.org/pt-br/download)
 
-## Como executar:
-```
-1. Clone este repositório usando `git clone https://github.com/YohanBZ/ferramenta_de_ordenar.git`.
+## 💻 Como executar:
 
-2. Navegue até a pasta do projeto via terminal.
-
-3. Execute comando `npm install`.
-
-4. Execute o arquivo principal usando o comando `npm start`.
-
-5. Siga as instruções no terminal para adicionar propriedades CSS.
-
-6. Digite 'sair' quando terminar e veja sua lista ordenada de propriedades!
+1. Certifique-se de ter o Node.js instalado em seu sistema.
 
 ```
-## Bibliotecas e Tecnologias Utilizadas:
+node -v
+```
 
-- NodeJS: Fornece o ambiente de execução para o projeto.
-- Readline: Um módulo nativo do NodeJS usado para ler a entrada do usuário na interface da linha de comando.
+2. Clone este repositório usando comando:
+
+```
+git clone https://github.com/YohanBZ/ferramenta_de_ordenar.git`.
+```
+
+3. Navegue até a pasta do projeto via terminal e acesse com:
+
+```
+cd ferramenta_de_ordenar
+```
+
+4. Abrir em um editor de codigo com:
+
+```
+ code .
+```
+
+5. Execute comando para instalar as dependências:
+
+```
+npm install
+```
+
+6. Execute o arquivo principal usando o comando:
+
+```
+npm start
+```
+
+### ✅ Exemplos de entrada:
+
+7. Siga as instruções no terminal para adicionar propriedades CSS.
+
+```
+Digite uma propriedade de css ou digite 'sair' para encerrar: Flex
+```
+
+- Após adicionada precione pressione [enter]
+
+```
+Propriedade adicionada✅
+```
+
+8. Digite 'sair' quando terminar e veja sua lista ordenada de propriedades!
+
+```
+Digite uma propriedade de css ou digite 'sair' para encerrar: sair
+
+*** Lista:
+- Align-itens
+- Background
+- Text-align
+```
+
+## ❌ Tratamento de erro:
+
+#### Entrada Vazia:
+
+Quando o programa solicitar a inserção de uma propriedade de CSS, simplesmente pressione "Enter" sem digitar nada ou durante a execução do programa, ele exibira a mensagem de:
+
+```
+ Valor inválido ou já existente❗️
+```
+
+## 📖 Bibliotecas e Tecnologias Utilizadas:
+
+- [NodeJS Doc.](https://nodejs.org/en/docs) : Fornece o ambiente de execução para o projeto .
+- [Readline](https://nodejs.org/api/readline.html) : Um módulo nativo do NodeJS usado para ler a entrada do usuário na interface da linha de comando.
+
+## 📄 Licença
+
+- [MIT](./LICENSE)
 
 ---
 
+Feito por: YohanBZ.
