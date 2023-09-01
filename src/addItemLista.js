@@ -1,5 +1,5 @@
 import * as readline from 'node:readline/promises';
-import Validacao from './validacao.js';
+import Validacao from './Validacao.js';
 
 
 const rl = readline.createInterface({
